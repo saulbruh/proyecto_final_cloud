@@ -8,7 +8,7 @@ server = os.getenv("SQL_SERVER")
 database = os.getenv("SQL_DATABASE")
 username = os.getenv("SQL_USERNAME")
 password = os.getenv("SQL_PASSWORD")
-driver = "{ODBC Driver 18 for SQL Server}"
+driver = "{ODBC Driver 17 for SQL Server}"
 
 if not all([server, database, username, password]):
     raise Exception("Faltan variables de entorno de la base de datos")
@@ -20,7 +20,7 @@ connection_string = (
     f"UID={username};"
     f"PWD={password};"
     "Encrypt=yes;"
-    "TrustServerCertificate=no;"
+    "TrustServerCertificate=yes;"
 )
 
 def get_connection():

@@ -20,7 +20,7 @@ connection_string = (
     f"UID={username};"
     f"PWD={password};"
     "Encrypt=yes;"
-    "TrustServerCertificate=yes;"
+    "TrustServerCertificate=no;"
 )
 
 def get_connection():

@@ -61,6 +61,9 @@ Para que automaticamente nuestro código sea actualizado en nuestra app, podemos
 ## 💻 Enlace a la Aplicación Desplegada
 > [Click aquí para ver la página](https://proyectocloudsm-a7ccbrcbbbbcece6.eastus2-01.azurewebsites.net)
 
+## 🎥 Enlace a el video de presentación
+> [Ver video en Youtube](https://youtu.be/joBy-r1Mx_w)
+
 ## 💸 Estimación del Costo
 ![Azure pricing calculator](img/Pricing%20Calculation.png)
 
